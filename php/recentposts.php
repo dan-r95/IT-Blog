@@ -1,7 +1,8 @@
 				<?php 
 				//Gibt die letzten 10 Posts nach Datum sortiert aus, aber ohne edit und löschen buttons
 				
-				$dir= '../posts/';
+				//$dir= '../posts/';
+				$dir=dirname(__DIR__,1).'/posts';
 				$files = array();
 				if ($handle = opendir($dir)) {  //'.'
 					while (false !== ($file = readdir($handle))) {
@@ -20,7 +21,8 @@
 						$index=count($files);
 					} 
 					for ($i=0; $i<$index;$i++){
-						$posts="../posts/".$files[$i];
+						//$posts="../posts/".$files[$i];
+						$posts=dirname(__DIR__,1).'/posts/'.$files[$i];
 						$post= file_get_contents($posts);
 						$arr = explode("\n", $post);
 					
