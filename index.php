@@ -105,10 +105,8 @@
 		</div>
 	</nav>
 	</div>
-	<!--Quelle Bild: http://www.imbuemedia.com/img/s7/v155/p1939629921-6.jpg -->
-	
 	  <div class="parallax-container">
-      <div class="parallax"><img src="lib/p1939629921-6.jpg"></div>
+      <div class="parallax"><img src="lib/Sonnenaufgang.jpg"></div>
 	  </div>
 	  
 	 <div class="row">
