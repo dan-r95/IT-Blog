@@ -10,7 +10,7 @@
 	
 	
 	<!--Import Google Icon Font-->
-      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!--Import materialize.css-->
       <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
 
@@ -24,7 +24,7 @@
 	<!-- css for picture thumbnails -->
 	<link href="css/pictures.css" type="text/css" rel="stylesheet">
 	
-	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 	<!-- collapse, for materialize css-->
 	<script type="text/javascript">
 		$( document ).ready(function(){

@@ -12,10 +12,10 @@
 	<link href="lib/calendar/calendar.css" type="text/css" rel="stylesheet" />
 	
 	<link rel="stylesheet" href="lib/calendar/calendar.css">
-	<link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+	<link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
 	
 	<!--Import Google Icon Font-->
-      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!--Import materialize.css-->
       <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
 
@@ -47,12 +47,12 @@
 	</style>
 		
 	<?php
-	
+	error_reporting(0);  /*error_reporting(E_ALL ^ E_WARNING );   & ~E_NOTICE*/
 	require_once 'lib/php-markdown-lib/Michelf/Markdown.inc.php';
 	use \Michelf\Markdown;
 	?>
 	
-	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 	<!-- collapse, for materialize css-->
 	<script type="text/javascript">
 		$( document ).ready(function(){
@@ -105,6 +105,8 @@
 		</div>
 	</nav>
 	</div>
+	<!--Quelle Bild: http://www.imbuemedia.com/img/s7/v155/p1939629921-6.jpg -->
+	
 	  <div class="parallax-container">
       <div class="parallax"><img src="lib/Sonnenaufgang.jpg"></div>
 	  </div>
@@ -224,18 +226,14 @@
               ?>
 			</div>
 				
-				
-		<div class="col s1 l1 m1">
-		.
-		</div>
 		
-		  <div class="col s12 l4 l4"> <!--offset-s6 id="demo"-->
+		  <div class="col s12 l4 l4 offset-s1 offset-m1 offset-l1"> <!--offset-s6 id="demo"-->
 			<h3>Kalender</h3>
 			<div id="ca"></div>
 			
 			 <div class="card">
 				<div class="card-image">
-				  <img src="lib/p1939629921-6.jpg">
+				  <img src="lib/Sonnenaufgang.jpg">
 				  <span class="card-title">Herzlich Willkommen</span>
 				</div>
 				<div class="card-content">
@@ -260,7 +258,7 @@
 	
 	
 	<!-- Kalendar depend -->
-	<script src="jquery.js"></script>
+	<!--<script src="jquery.js"></script>-->
 	<script src="lib/calendar/calendar.js"></script>
 	
 	
@@ -284,7 +282,7 @@
 		{
 		  date: '2016/01/01',
 		  value: 'Happy New Year'
-		}
+		},
 		{
 		  date: '1995/04/18',
 		  value: 'Happy Birthday, Daniel!'

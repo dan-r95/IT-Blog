@@ -10,7 +10,7 @@
 	
 	
 	<!--Import Google Icon Font-->
-      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!--Import materialize.css-->
       <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
 
@@ -21,7 +21,7 @@
 	<!-- style for font -->
 	<link href="css/textstyle.css" type="text/css" rel="stylesheet">
 	
-	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 	
 	<!-- collapse, for materialize css-->
 	<script type="text/javascript">
@@ -39,8 +39,8 @@
 	</script>
 	
 	<?php
-		ini_set('display_errors', 'On');
-		error_reporting(E_ALL | E_STRICT); ?>
+		/*ini_set('display_errors', 'On');
+		error_reporting(E_ALL | E_STRICT); */?>
 	
 	
   </head>

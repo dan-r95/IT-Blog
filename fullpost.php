@@ -10,10 +10,10 @@
 	
 	
 	<link rel="stylesheet" href="calendar.css">
-	<link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+	<link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
 	
 	<!--Import Google Icon Font-->
-      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!--Import materialize.css-->
       <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
 
@@ -25,12 +25,12 @@
 	<link href="css/textstyle.css" type="text/css" rel="stylesheet">
 		
 	<?php
-	
+	error_reporting(E_ALL ^ E_WARNING); 
 	require_once 'lib/php-markdown-lib/Michelf/Markdown.inc.php';
 	use \Michelf\Markdown;
 	?>
 	
-	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 	<!-- collapse, for materialize css-->
 	<script type="text/javascript">
 		$( document ).ready(function(){
@@ -87,10 +87,10 @@
 		</div>
 	</nav>
 	</div>
-	<!--Quelle Bild: http://www.imbuemedia.com/img/s7/v155/p1939629921-6.jpg -->
+	
 	
 	  <div class="parallax-container">
-      <div class="parallax"><img src="lib/p1939629921-6.jpg"></div>
+      <div class="parallax"><img src="lib/Sonnenaufgang.jpg"></div>
 	  </div>
 	  
 	 <div class="row">

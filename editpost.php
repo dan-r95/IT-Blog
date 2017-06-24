@@ -9,13 +9,13 @@
 	<link rel="icon" href="css/blog.ico" type="image/vnd.microsoft.icon">
 	
 	<!--Kalender-Einbindung -->
-	<link href="calendar.css" type="text/css" rel="stylesheet" />
+	<link href="lib/calendar/calendar.css" type="text/css" rel="stylesheet" />
 	
 	<link rel="stylesheet" href="calendar.css">
-	<link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+	<link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
 	
 	<!--Import Google Icon Font-->
-      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!--Import materialize.css-->
       <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
 
@@ -43,8 +43,8 @@
 	</script>
 	
 	<?php
-		ini_set('display_errors', 'On');
-		error_reporting(E_ALL | E_STRICT); ?>
+		/*ini_set('display_errors', 'On');
+		error_reporting(E_ALL | E_STRICT); */?>
 	
   </head>
   
