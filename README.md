@@ -8,6 +8,6 @@ Sources:
  [Upload Script](http://www.w3schools.com/php/php_file_upload.asp)
  [Calendar](https://github.com/yscoder/Calendar)
  
- <img src="http://raw.githubusercontent.com/rossy95/IT-Blog/master/lib/Screenshot.png" alt="The Blog Interface" style="width: 600px;"/>
+ <img src="http://raw.githubusercontent.com/rossy95/IT-Blog/master/lib/Screenshot.PNG" alt="The Blog Interface" style="width: 600px;"/>
  
  [Try for yourself](https://dansblog.000webhostapp.com/index.php) 
