@@ -21,17 +21,6 @@
 	<!-- style for font -->
 	<link href="css/textstyle.css" type="text/css" rel="stylesheet">
 	
-	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-	
-	<!-- collapse, for materialize css-->
-	<script type="text/javascript">
-		$( document ).ready(function(){
-			$(".button-collapse").sideNav();
-			$(".dropdown-button").dropdown();
-		});
-				
-	</script>
-	
 	<script language="JavaScript" type="text/javascript">
 		function checkDelete(){
 		return confirm('Den Post löschen?');
@@ -47,10 +36,10 @@
   
   <body>
 	<!--Import jQuery before materialize.js-->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script> 
     <script type="text/javascript" src="js/materialize.min.js"></script>
-	
-   
+	<!-- collapse, for materialize css-->
+	<script type="text/javascript" src="js/init.js"></script>
 	
 	<!-- Dropdown Structure mobile & pc -->
 	<ul id="dropdown_mob" class="dropdown-content">

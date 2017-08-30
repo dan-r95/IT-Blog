@@ -18,7 +18,8 @@
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!--Import materialize.css-->
       <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-
+	  <!-- clippy -->
+	  <link rel="stylesheet" type="text/css" href="lib/clippy.js/build/clippy.css" media="all">
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	
@@ -28,6 +29,7 @@
 	Markdown Parser: https://github.com/michelf/php-markdown
 	Upload Script: http://www.w3schools.com/php/php_file_upload.asp
 	Calendar: https://github.com/yscoder/Calendar
+	Clippy https://github.com/smore-inc/clippy.js/
 	-->
     
 	<!-- style for font -->
@@ -52,24 +54,28 @@
 	use \Michelf\Markdown;
 	?>
 	
-	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-	<!-- collapse, for materialize css-->
-	<script type="text/javascript">
-		$( document ).ready(function(){
-			$(".button-collapse").sideNav();
-			$(".dropdown-button").dropdown();
-			$('.parallax').parallax();
-		});
-				
-	</script>
 	
   </head>
   
   <body>
 	<!--Import jQuery before materialize.js-->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script> 
     <script type="text/javascript" src="js/materialize.min.js"></script>
+	<!-- collapse, for materialize css-->
+	<script type="text/javascript" src="js/init.js"></script>
+				
 	
+	<!-- Clippy.js -->
+	<script src="lib/clippy.js/build/clippy.min.js"></script>
+	<!-- Init script -->
+	<script type="text/javascript">
+		clippy.load('Clippy', function(agent){
+			// do anything with the loaded agent
+			agent.show();
+			agent.moveTo(window.innerWidth -300, 100);
+			agent.speak('Welcome stranger!');
+		});
+	</script>
 	
 	<!-- Dropdown Structure mobile & pc -->
 	<ul id="dropdown_mob" class="dropdown-content">
@@ -93,19 +99,18 @@
 		  <ul  class="left hide-on-med-and-down">
 			<li><a href="index.php">Home</a></li>
 			<!-- Dropdown Trigger -->
-			<li><a class="dropdown-button" href="#!" data-activates="dropdown">Admin<i class="material-icons right">arrow_drop_down</i></a></li>
+			<li><a class="dropdown-button" href="#!" data-activates="dropdown" id="admin-btn">Admin<i class="material-icons right">arrow_drop_down</i></a></li>
 		  </ul>
 		  
 		  <ul class="side-nav" id="mobile-demo">
 			<li class="active"><a href="index.php">Home</a></li>
 			<!-- Dropdown Trigger -->
-			<li><a class="dropdown-button" href="#!" data-activates="dropdown_mob">Admin<i class="material-icons right">arrow_drop_down</i></a></li>
+			<li><a class="dropdown-button" href="#!" data-activates="dropdown_mob" id="admin-mob-btn" >Admin<i class="material-icons right">arrow_drop_down</i></a></li>
 			
 		  </ul>
 		</div>
 	</nav>
 	</div>
-	<!--Quelle Bild: http://www.imbuemedia.com/img/s7/v155/p1939629921-6.jpg -->
 	
 	  <div class="parallax-container">
       <div class="parallax"><img src="lib/Sonnenaufgang.jpg"></div>
